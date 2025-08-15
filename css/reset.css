@@ -1,0 +1,131 @@
+html {
+    font-size: 62.5%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 1.6rem;
+    line-height: 1.4;
+    color: var(--color-secondary);
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    line-height: 1.22;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a,
+a:hover,
+a:focus {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+
+a:hover {
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+}
+
+.sec-padding {
+    padding: 10rem 0;
+}
+
+.sec-bg {
+    background: #FAFAFA;
+}
+
+.fw-300 {
+    font-weight: 300;
+}
+
+.fw-400 {
+    font-weight: 400;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+.fw-800 {
+    font-weight: 800;
+}
+
+.pb-10 {
+    padding-bottom: 1rem;
+}
+
+.pb-20 {
+    padding-bottom: 2rem;
+}
+
+.pb-30 {
+    padding-bottom: 3rem;
+}
+
+.pb-40 {
+    padding-bottom: 4rem;
+}
+
+.pb-50 {
+    padding-bottom: 5rem;
+}
+
+.pt-10 {
+    padding-top: 1rem;
+}
+
+.pt-20 {
+    padding-top: 2rem;
+}
+
+.pt-30 {
+    padding-top: 3rem;
+}
+
+.pt-40 {
+    padding-top: 4rem;
+}
+
+.pt-50 {
+    padding-top: 5rem;
+}
+
+.p-tb-100 {
+    padding: 10rem 0;
+}
+
+.row {
+    --bs-gutter-x: 2.4rem;
+}
